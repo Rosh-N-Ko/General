@@ -1,0 +1,192 @@
+Chapter 01 : Setting up the tools :
+
+
+
+Chapter 02: Diving in :
+
+- Your First C++ Program                                            1:43:05
+- Comments                                                                  1:55:56
+- Errors and Warnings                                                  2:01:56
+- Statements and Functions                                       2:13:13
+- Data input and output                                               2:31:38
+- C++ Program Execution Model                               2:49:57
+- C++ core language Vs Standard library Vs STL   2:56:43
+
+
+
+Chapter 03 : Variables and data types :
+- Introduction                        3:00:47
+- Number Systems               3:05:07 
+- Integers                               3:21:53
+- Integer Modifiers               3:40:45
+- Fractional Numbers          3:45:00
+- Booleans                            4:16:40
+- Characters and text          4:24:49
+- Auto                                    4:32:06
+- Assignments                     4:38:06 
+- recap                                   4:45:42 
+
+
+
+Chapter 4: Operations on Data :
+- Introduction on Data operations               4:46:46 
+- Basic operations                                          4:47:32 
+- Precedence and Associativity                   4:58:01
+- Prefix and postfix + and -                           5:12:07
+- Compound Operators                                 5:23:22
+- Relational Operators : comparing stuff   5:31:43 
+- Logical Operators                                       5:40:52    
+- Output Formatting                                      5:56:09 
+- Numeric Limits                                           6:33:27 
+- Math Functions                                          6:41:10
+- Weird Integral types                                   6:54:24 
+- Summary of Operations on data              6:59:41
+
+
+
+Chapter 5 : Flow Control : Conditional Programming 
+- Flow Control Introduction        7:02:00 
+- If Statement                               7:03:31 
+- Else if                                          7:20:50 
+- Switch                                         7:28:47
+- Ternary Operator                       7:42:45
+- Summary of Flow control        7:52:20
+
+
+
+Chapter 6 : Loops 
+- Loops Introduction              7:53:49
+- for loop                                  7:55:20  
+- While loop                             8:25:20
+- Do while loops                     8:36:54
+
+
+
+Chapter 7 : Arrays 
+- Introduction to Arrays             8:47:08
+- Declaring and using Arrays    8:48:46
+- Size of An Array                        9:15:53
+- Arrays of characters                9:26:44 
+- Bounds of an Array                   9:46:47
+
+Chapter 8 : Pointers
+-Introduction to Pointers              9:53:23
+-Declaring and Using Pointers     9:56:04
+-Pointer to Char                            10:14:49
+-Program Memory Map                10:27:26
+-Dynamic Memory Allocation       10:36:32
+-Dangling Pointers                          11:05:45
+-When 'New' Fails                            11:24:15
+-Null Pointer Safety                          11:38:00 
+-Memory Leaks                                  11:45:18
+-Dynamic Arrays                               11:55:46
+
+Chapter 9: References
+-Introduction to References            ​         12:11:04
+-Declaring and using references
+-Comparing pointers and references     12:22:28
+-References and const                             ​ @​​
+
+Chapter 10: Character Manipulation and Strings
+-Introduction to Strings                                 12:44:29
+-Character Manipulation
+-C-string manipulation                                   13:09:32
+-C-String concatenation and copy                13:41:45
+-Introducing std::string                                   14:01:19
+-Declaring and using std::string                    14:03:39
+
+Chapter 11: Functions
+-The One Definition Rule                                               14:12:43
+-First Hand on C++ Functions                                       14:28:25
+-Function Declaration and Function Definitions         15:00:50
+-Multiple Files - Compilation Model Revisited             15:15:31
+-Pass by value                                                                   15:42:31
+-Pass by pointer                                                                15:50:31
+-Pass by reference                                                             15:57:49
+
+
+
+Chapter 12: Getting Things out of functions
+-Introduction to getting things out of functions             16:03:20
+-Input and output parameters                                             16:04:03
+-Returning from functions by value                                   16:18:00
+
+Chapter 13: Function Overloading
+-Function Overloading Introduction                                   16:32:35
+-Overloading with different parameters
+
+Chapter 14: Lambda functions
+-Intro to Lambda Functions                                                    16:49:00                              
+-Declaring and using lambda functions                            
+-Capture lists                                                                           17:20:27
+-Capture all in context                                                              17:33:00
+-Summary
+
+Chapter 15: Function Templates
+-Intro to function templates                                                          17:40:08
+-Trying out function templates                                                      17:41:07
+-Template type deduction and explicit arguments                     18:19:53
+-Template parameters by reference                                              18:35:50
+-Template specialization                                                                 18:46:56
+
+
+
+Chapter 16: C++20 Concepts Crash course
+-Intro to C++20 Concepts                                               19:04:31
+-Using C++20 Concepts                                                  19:06:47
+-Building your own C++20 Concepts                             19:25:35
+-Zooming in on the requires clause                               19:42:46
+-Combining C++20 Concepts                                          19:59:55
+-C++20 Concepts and auto                                               20:09:42
+ 
+
+
+Chapter 17: Classes
+-Intro to classes                                                                      20:15:40
+-Your First Class                                                                     20:16:33
+-C++ Constructors                                                                  20:38:04
+-Defaulted constructors                                                         20:53:37
+-Setters and Getters                                                               20:59:44
+-Class Across Multiple Files                                                  21:10:07
+-Arrow pointer call notation                                                  21:30:51
+-Destructors                                                                             21:42:50
+-Order of Constructor Destructor Calls                               22:05:46
+-The this Pointer                                                                     22:11:06
+-struct                                                                                       22:33:33
+-Size of objects                                                                       22:42:37
+
+
+
+Chapter 18: Inheritance
+-Introduction to Inheritance                                               22:52:43
+-First try on Inheritance                                                     22:56:00
+-Protected members                                                          23:21:12
+-Base class access specifiers : Zooming in                       23:32:05 
+-Closing in on Private Inheritance                                     24:07:45
+-Resurrecting Members Back in Context                       24:26:36
+-Default Constructors with Inheritance                           24:47:00
+-Custom Constructors With Inheritance                         24:56:00
+-Copy Constructors with Inheritance                              25:26:56
+-Inheriting Base Constructors                                        25:51:54
+-Inheritance and Destructors                                         26:06:00
+-Reused Symbols in Inheritance                                   26:12:24
+
+
+
+Chapter 19: Polymorphism
+-Introduction to Polymorphism                                     26:21:03
+-Static Binding with Inheritance                                    26:26:53
+-Dynamic binding with virtual functions                      26:55:54
+-Size of polymorphic objects and slicing                     27:14:31
+-Polymorphic objects stored in collections (array)    27:26:37
+-Override                                                                            27:45:42
+-Overloading, overriding and function hiding              27:52:45
+-Inheritance and Polymorphism at different levels    28:07:38
+-Inheritance and polymorphism with static members
+-Final
+-Virtual functions with default arguments
+-Virtual Destructors
+-Dynamic casts
+-Polymorphic Functions and Destructors
+-Pure virtual functions and abstract classes
+-Abstract Classes as Interfaces

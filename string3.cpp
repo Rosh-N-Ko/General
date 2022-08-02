@@ -1,0 +1,2 @@
+pyramid string 
+pyrsmid string 

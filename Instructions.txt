@@ -1,0 +1,1 @@
+the dated files ar for references sake , so not modify them, modify other versions and save it in the appropriate file .eg.string1 should be saved in strings .
