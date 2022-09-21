@@ -1,0 +1,8 @@
+OOPFCC Documentation
+Whats this program is able to do 
+1)create objects of class stuff(items in a shop)
+2)Pass arguments of the name,price and quantity to the init function
+defining a method that will calculate the total value of an object in a shop
+3)calculate discount through a global and instance attribute 
+4)Creatinga  list and adding all instances of the class to that list
+5)creating a function that prints all the current items in a store

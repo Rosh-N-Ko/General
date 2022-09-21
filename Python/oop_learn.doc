@@ -1,0 +1,127 @@
+'''OOPs are used for the following reasons 
+1.To associate different variables , methods with the same object so that yu co=dont have make new variables , over and over again .
+Its like having a letter format instead of a writing the same letter over and over again
+reduces comp resources and is faster to type
+2.Since they are are associated with each otehr its easier to link them and understand them 
+3.Having a datatype of our ow which we can reuse easily
+
+1)The __init__ method 
+aka constructors
+Gets called each time an instance is created 
+you can use it to create repeat variable =s that will come up in edach instance of the class
+
+def __init__(self,name,price,quant):
+        self.sus=name
+        self.price=price
+        self.quant=quant
+        print(f"New Item: {name}")
+
+2)WHats the lett and right side of the self.equation
+here the left side of the self .equation can be named anything,but will allso be used to call the variable everywhere wlse in the program
+but the right side must be name the arguments taken up by the 
+init method
+
+later when you are referring to the variable needed refer to the left side of the equation 
+print(item1.name)-This will return an error
+print(item1.sus)-This will return the variable name , which was a argument passed by the approprate item 
+
+3)default value for init arguments 
+there can be a default value that you accept ,such that if a method does not pass that variable,it wont be and error
+item1=stuff("Phone",100)
+
+item2=stuff("Laptop",1000,5)
+ 
+ Here item1,has no quant,and item 2 does,yet , there will be no error in printing cause  
+
+print(item1.quant)
+print(item2.quant)
+
+4)self
+the self method allows you to access the specific inteance and its atrributes 
+
+5)Appropriate datatypes 
+in the init method you can specify the datatypes you want through the followiing
+def __init__(self,name:str,price:float,quant=0:int):
+
+
+6)assert keyword
+(this is used  ensure that arguments recieved have an accceptable value that does not make the program crash or misbehave(-ve or 0 numbers))
+going against these will create an assertion error 
+you can also custom make error messages  which will help you solve where it went wrong
+
+7)magic attribute- __dict__
+this is a .attribute that shows all the attributes
+ atteched to a an object or class when specified asdictionary
+
+8)Global and instance atrributes 
+the precedence for accessing and interpreting varibales goes like this 
+1.instance level 
+2. class level 
+based on that you can change values to fit an instance ,but still keep the global the same 
+
+9)magic method -__repr__
+this method helps to represent the objects within a list of object sin a class , such that when they 
+are called , they are show as the coder wants it to b eshown and not some default name and association
+
+10)csv files -comma seperated values  
+this is a step below a database , storing data for the progrma to access so 
+that you dont store and work with data in the same program
+you need the csv library to read and write csv files
+,use that in the csv dat extracor method ,in the following way 
+with open('item.csv','r') as f
+
+-items.csv is the name of the file and r is the remission to read the file-as f-the varible to hold the action of oopening the file  
+
+since csv fles are stored as dictionaries,you use the dictreader function
+
+11)decorrators
+these are used to prefix things to make them special example 
+a method method ,with the decorator of @classmethod,becomes accessible for the entire class 
+
+
+12)class methods
+accept the arguments of cls rather than self  
+
+13)CSV reader vs dict reader
+The csv reade for a file will show each row seperately when printed,kinda like an excel sheet ,the data isnot labelled in each row  
+['name', 'price', 'quant']
+['Laptop', '1000', '3']
+                               vs
+the dictreader show the key value pairsfor each instance
+{'name': 'Laptop', 'price': '1000', 'quant': '3'}
+{'name': 'Mouse', 'price': '1000', 'quant': '5'}     
+
+14)Instantiating csv file data
+You can use csv file data to make instances of a class , as long as they are aligned 
+a)loop through the csv list 
+b)for each item in the list us e the get method ,align it with a prestablished attribute in the class
+
+15)ISinstance method 
+tis chcks if an arument passed to it is the istance of a dataype mentioned 
+goes like this
+isinstance(num,float)
+here the firszt argument is the variabe that you want to check,and the second argument is the type you want to check  
+
+16).is_integer
+this is dot method that check if an attribute connected to it is an integer 
+7.0 will return a true  
+7.5 will return a false
+7 will return a true 
+
+17)class methods vs static method 
+static methods are not instance specific .
+They dont need to deal with unique data ,so in that sense 
+they act as normal function s, just this ime they are assocated with a classs
+they cannot accept self methods , they need predefined arguments , not complex one slike self 
+No special refernce of self/class is possible, as it treats complex parameters as simple ?? 
+
+class methods are instance specific 
+since they deal with unique data they deal with ,they can accept te class argument, without errors  
+mandatory argiments are required (mandatory arguments are self/class)
+8)
+
+
+
+
+
+'''
