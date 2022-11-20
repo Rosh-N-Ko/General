@@ -1,0 +1,23 @@
+1.Requests
+start by importng the requests module this allows you the base to get and set data 
+2)in case of simple readme link 
+what i mean by a read me link is that the url leads you to few lines of the data that you need
+ rather than something more systemised 
+3)Make a fuction to access the info(optional)
+4)assign the link to a variable -------l="url"
+5)then use a get request (which is a function ) to get the info in that link which will be 
+stored as a string
+    -----r=requests.get(l)
+6)convert that string into a dictionary through a json method
+    j=r.json()    
+7)now you will most probably get many keys, and now store the value of those keys  
+get the value from a the approproiate key ,and store it in the format you like 
+    val=float(j['Key1'])
+    here the square brackets are needed as you are using a dicionary  and float is the dataytpe youi want 
+    alspo you canb then format how it is diplayed eg.since we are getting a float and it happens to be a big flopat , you can format itr as so 
+    so 
+        form="${:,.3f}
+        ':'allows the formmatter to parse the staement 
+        the comma puts comma in ther ight places 
+        and .3f shows us how many floating are displayed in  
+    
